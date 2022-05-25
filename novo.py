@@ -1,11 +1,18 @@
-print('Olá mundo !!!')
+print('********************************')
+print('Bem vindo ao jogo da Adivinhação')
+print('********************************')
 
-#Exercício Aula 1
+numero_secreto = 42
 
-dia = 15
-#mes = 10
-#ano = 2015
+numero_selecionado = input('Digite o seu número: ')
 
-#print(dia, mes, ano, sep="/")
+numero_selecionado = int(numero_selecionado)
 
-print(type(dia))
+if(numero_selecionado == numero_secreto):
+    print('Você acertou !')
+else:
+    print('Você errou !')
+
+print('Seu número escolhido foi:', numero_selecionado)
+
+print('Fim do jogo')
