@@ -9,5 +9,3 @@ dia = 15
 #print(dia, mes, ano, sep="/")
 
 print(type(dia))
-
-
